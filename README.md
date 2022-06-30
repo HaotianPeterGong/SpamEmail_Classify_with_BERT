@@ -13,4 +13,6 @@ So we need to truncate long sentence to several pieces, each having 510 tokens w
 # Fit BERT - Feature Extraction
 We used the feature of [CLS] position in the last hidden state, a 768-dimensional vector.
 
+To fit the pre-trained BERT, besides input_id, token_type_ids and attention_mask need to be added.
+
 <img src="pictures/Screen Shot 2022-06-30 at 10.57.15 AM.png" width="350">
